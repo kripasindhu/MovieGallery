@@ -1,0 +1,39 @@
+{
+  "name": "artgallery",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^0.17.2",
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-navigation/native": "^6.1.2",
+    "@react-navigation/stack": "^6.3.11",
+    "@types/react-native": "~0.70.6",
+    "axios": "^1.2.5",
+    "expo": "~47.0.12",
+    "expo-av": "~13.0.2",
+    "expo-linear-gradient": "~12.0.1",
+    "expo-local-authentication": "^13.0.2",
+    "expo-splash-screen": "~0.17.5",
+    "expo-status-bar": "~1.4.2",
+    "lottie-react-native": "5.1.4",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-paper": "^5.2.0",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "~3.18.0",
+    "react-native-web": "^0.18.12",
+    "react-navigation-stack": "^2.10.4",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "^18.0.27"
+  },
+  "private": true
+}
